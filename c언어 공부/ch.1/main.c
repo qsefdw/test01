@@ -2,15 +2,13 @@
 
 int main()
 {
-	double tall;
-	double weight;
+	int age = 25;
+	float height = 175.5f;
+	char grade = 'A';
 
-	printf("키를 입력하세요 : ");
-	scanf_s("%lf", &tall);
-
-	weight = tall - 110;
-
-	printf("적정몸무게는 %.2lf kg입니다.", weight);
+	printf("나이 : %d\n", age);
+	printf("키 : %.1f\n", height);
+	printf("학점 : %c\n", grade);
 
 	return 0;
 }
